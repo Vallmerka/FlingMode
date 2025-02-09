@@ -74,7 +74,7 @@ end
 local SilentAimSettings = {
     Enabled = false,
     
-    ClassName = "PasteWare  |  github.com/FakeAngles",
+    ClassName = "FlingMode | {ver}",
     ToggleKey = "U",
     
     TeamCheck = false,
@@ -320,7 +320,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/V
 Library.KeybindFrame.Visible = true;
 
 local Window = Library:CreateWindow({
-    Title = 'PasteWare  |  github.com/FakeAngles',
+    Title = 'FlingMode | {ver}',
     Center = true,
     AutoShow = true,  
     TabPadding = 8,
@@ -369,7 +369,7 @@ aimbox:AddToggle("aim_Enabled", {
         end
     end,
 }):AddKeyPicker("aim_Enabled_KeyPicker", {
-    Default = "Q", 
+    Default = "G", 
     SyncToggleState = true,
     Mode = "Toggle",
     Text = "AimLock Key",
@@ -1446,7 +1446,7 @@ frabox:AddSlider("cframespeed", {
     Text = "CFrame Multiplier",
     Default = 1,
     Min = 1,
-    Max = 20,
+    Max = 200,
     Rounding = 1,
     Tooltip = "The CFrame speed.",
     Callback = function(value)
@@ -1476,7 +1476,7 @@ frabox:AddSlider("flySpeed", {
     Text = "CFly Speed",
     Default = 1,
     Min = 1,
-    Max = 50,
+    Max = 250,
     Rounding = 1,
     Tooltip = "The CFrame Fly speed.",
     Callback = function(value)
@@ -1776,9 +1776,9 @@ WarTycoonBox:AddToggle("RPG Spam", {
 
 WarTycoonBox:AddSlider("Rocket Count", {
     Text = "Rockets per Spam",
-    Default = 1,
+    Default = math.huge,
     Min = 1,
-    Max = 500000,
+    Max = math.huge,
     Rounding = 0,
     Tooltip = "Adjust how many rockets to fire at once.",
     Callback = function(value)
@@ -1788,8 +1788,8 @@ WarTycoonBox:AddSlider("Rocket Count", {
 
 WarTycoonBox:AddSlider("Spam Speed", {
     Text = "Rockets Spam Speed",
-    Default = 1,
-    Min = 0.1,
+    Default = -math.huge,
+    Min = -math.huge,
     Max = 5,
     Rounding = 1,
     Tooltip = "Adjust the speed of RPG spam.",
