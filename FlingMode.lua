@@ -1875,8 +1875,8 @@ WarTycoonBox:AddToggle("Quick Lag RPG", {
 }):AddKeyPicker("Quick Lag rocket Key", {
     Default = "I",
     Mode = "Toggle",
-    Text = "Quick Lag rocket Key",
-    Tooltip = "Key to toggle Quick Lag rocket",
+    Text = "гуик важна",
+    Tooltip = "просто забей бинд норм стоит",
     Callback = function()
         if not isQuickLagRPGExecuting then
             isQuickLagRPGExecuting = true
@@ -2223,3 +2223,5 @@ while true do
 end
 
 ThemeManager:LoadDefaultTheme()
+
+print("Загружено нахуй.")
