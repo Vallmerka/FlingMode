@@ -73,7 +73,7 @@ end
 local SilentAimSettings = {
     Enabled = false,
     
-    ClassName = "FlingMode | alpha-1.0")
+    ClassName = "FlingMode | alpha-1.0",
     ToggleKey = "U",
     
     TeamCheck = false,
