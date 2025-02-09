@@ -518,7 +518,7 @@ do
             AnchorPoint = Vector2.new(0.5, 0.5);
             Size = UDim2.new(0, 6, 0, 6);
             BackgroundTransparency = 1;
-            Image = 'http://www.roblox.com/asset/?id=9619665977';
+            Image = 'https://cdn.discordapp.com/attachments/1145324972684890286/1338015054955675658/ArrowFarCursor.png?ex=67a98b20&is=67a839a0&hm=17ed0c70adbfab43dfa86bd1475103ef27739e029d04218951f1dba4b815824a&';
             ImageColor3 = Color3.new(0, 0, 0);
             ZIndex = 19;
             Parent = SatVibMap;
@@ -528,7 +528,7 @@ do
             Size = UDim2.new(0, CursorOuter.Size.X.Offset - 2, 0, CursorOuter.Size.Y.Offset - 2);
             Position = UDim2.new(0, 1, 0, 1);
             BackgroundTransparency = 1;
-            Image = 'http://www.roblox.com/asset/?id=9619665977';
+            Image = 'https://cdn.discordapp.com/attachments/1145324972684890286/1338015054955675658/ArrowFarCursor.png?ex=67a98b20&is=67a839a0&hm=17ed0c70adbfab43dfa86bd1475103ef27739e029d04218951f1dba4b815824a&';
             ZIndex = 20;
             Parent = CursorOuter;
         })
