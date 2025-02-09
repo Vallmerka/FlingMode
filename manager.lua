@@ -1,7 +1,7 @@
 local httpService = game:GetService('HttpService')
 
 local SaveManager = {} do
-	SaveManager.Folder = 'PasteWareConfig'
+	SaveManager.Folder = 'FlingModeConfig'
 	SaveManager.Ignore = {}
 	SaveManager.Parser = {
 		Toggle = {
