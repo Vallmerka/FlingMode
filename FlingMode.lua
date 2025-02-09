@@ -70,11 +70,11 @@ if bypass_adonis then
         setthreadidentity(7)
     end)
 end
-
+local version = require("version")
 local SilentAimSettings = {
     Enabled = false,
     
-    ClassName = "FlingMode | {ver}",
+    ClassName = "FlingMode | " .. version.ver,)
     ToggleKey = "U",
     
     TeamCheck = false,
