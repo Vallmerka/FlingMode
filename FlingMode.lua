@@ -70,11 +70,10 @@ if bypass_adonis then
         setthreadidentity(7)
     end)
 end
-local version = require("version")
 local SilentAimSettings = {
     Enabled = false,
     
-    ClassName = "FlingMode | " .. version.ver,)
+    ClassName = "FlingMode | alpha-1.0")
     ToggleKey = "U",
     
     TeamCheck = false,
@@ -320,7 +319,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/V
 Library.KeybindFrame.Visible = true;
 
 local Window = Library:CreateWindow({
-    Title = 'FlingMode | {ver}',
+    Title = 'FlingMode | alpha-1.0',
     Center = true,
     AutoShow = true,  
     TabPadding = 8,
