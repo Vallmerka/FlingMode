@@ -818,7 +818,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             button.Size = UDim2.new(0, 418, 0, 37)
             button.ZIndex = 2
             button.Font = Enum.Font.Gotham
-            button.TextColor3 = Color3.fromRGB(21, 103, 251)
+            button.TextColor3 = Color3.fromRGB(251, 47, 179)
             button.TextSize = 21
 
             local uc_3 = Instance.new("UICorner")
@@ -863,13 +863,13 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             local toggleswitch = Instance.new("TextLabel")
             toggleswitch.Name = "toggleswitch"
             toggleswitch.Parent = workareamain
-            toggleswitch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            toggleswitch.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
             toggleswitch.BackgroundTransparency = 1
             toggleswitch.BorderSizePixel = 2
             toggleswitch.Size = UDim2.new(0, 418, 0, 37)
             toggleswitch.Font = Enum.Font.Gotham
             toggleswitch.Text = name
-            toggleswitch.TextColor3 = Color3.fromRGB(95, 95, 95)
+            toggleswitch.TextColor3 = Color3.fromRGB(251, 47, 179)
             toggleswitch.TextSize = 21
             toggleswitch.TextWrapped = true
             toggleswitch.TextXAlignment = Enum.TextXAlignment.Left
