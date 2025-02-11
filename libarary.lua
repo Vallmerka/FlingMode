@@ -341,7 +341,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     title.Size = UDim2.new(0, 400, 0, 15)
     title.Font = Enum.Font.Gotham
     title.LineHeight = 1.180
-    title.TextColor3 = Color3.fromRGB(0, 0, 0)
+    title.TextColor3 = Color3.fromRGB(150, 84, 137)
     title.TextSize = 28
     title.TextWrapped = true
     title.TextXAlignment = Enum.TextXAlignment.Left
@@ -802,7 +802,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             section.Font = Enum.Font.Gotham
             section.LineHeight = 1.180
             section.Text = name
-            section.TextColor3 = Color3.fromRGB(0, 0, 0)
+            section.TextColor3 = Color3.fromRGB(175, 98, 160)
             section.TextSize = 25
             section.TextWrapped = true
             section.TextXAlignment = Enum.TextXAlignment.Left
@@ -827,7 +827,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
             local us = Instance.new("UIStroke", button)
             us.ApplyStrokeMode = "Border"
-            us.Color = Color3.fromRGB(21, 103, 251)
+            us.Color = Color3.fromRGB(251, 47, 179)
             us.Thickness = 1
 
 
@@ -852,7 +852,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             label.BorderSizePixel = 2
             label.Size = UDim2.new(0, 418, 0, 37)
             label.Font = Enum.Font.Gotham
-            label.TextColor3 = Color3.fromRGB(95, 95, 95)
+            label.TextColor3 = Color3.fromRGB(208, 169, 212)
             label.TextSize = 21
             label.TextWrapped = true
             label.Text = name
@@ -928,10 +928,10 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
                 if mode then
                     TextButton:TweenPosition(UDim2.new(0, 35, 0, 1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(21, 103, 251)
+                    Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
                 else
                     TextButton:TweenPosition(UDim2.new(0,1,0,1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
+                    Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
                 end
             end)
         end
@@ -946,7 +946,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             textfield.Size = UDim2.new(0, 418, 0, 37)
             textfield.Font = Enum.Font.Gotham
             textfield.Text = name
-            textfield.TextColor3 = Color3.fromRGB(95, 95, 95)
+            textfield.TextColor3 = Color3.fromRGB(208, 169, 212)
             textfield.TextSize = 21
             textfield.TextWrapped = true
             textfield.TextXAlignment = Enum.TextXAlignment.Left
