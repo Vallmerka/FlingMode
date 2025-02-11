@@ -887,7 +887,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
             local TextButton = Instance.new("TextButton")
             TextButton.Parent = Frame
-            TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextButton.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
             TextButton.Size = UDim2.new(0, 34, 0, 34)
             TextButton.AutoButtonColor = false
             TextButton.Text = ""
@@ -939,7 +939,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             local textfield = Instance.new("TextLabel")
             textfield.Name = "textfield"
             textfield.Parent = workareamain
-            textfield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            textfield.BackgroundColor3 = Color3.fromRGB(48, 46, 48)
             textfield.BackgroundTransparency = 1
             textfield.BorderSizePixel = 2
             textfield.Size = UDim2.new(0, 418, 0, 37)
