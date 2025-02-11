@@ -863,13 +863,13 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             local toggleswitch = Instance.new("TextLabel")
             toggleswitch.Name = "toggleswitch"
             toggleswitch.Parent = workareamain
-            toggleswitch.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
+            toggleswitch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             toggleswitch.BackgroundTransparency = 1
             toggleswitch.BorderSizePixel = 2
             toggleswitch.Size = UDim2.new(0, 418, 0, 37)
             toggleswitch.Font = Enum.Font.Gotham
             toggleswitch.Text = name
-            toggleswitch.TextColor3 = Color3.fromRGB(251, 47, 179)
+            toggleswitch.TextColor3 = Color3.fromRGB(95, 95, 95)
             toggleswitch.TextSize = 21
             toggleswitch.TextWrapped = true
             toggleswitch.TextXAlignment = Enum.TextXAlignment.Left
@@ -913,10 +913,10 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
                 if mode then
                     TextButton:TweenPosition(UDim2.new(0, 35, 0, 1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
+                    Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
                 else
                     TextButton:TweenPosition(UDim2.new(0,1,0,1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
+                    Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
                 end
             end)
             TextButton.MouseButton1Click:Connect(function()
@@ -928,14 +928,13 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
                 if mode then
                     TextButton:TweenPosition(UDim2.new(0, 35, 0, 1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
+                    Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
                 else
                     TextButton:TweenPosition(UDim2.new(0,1,0,1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
+                    Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
                 end
             end)
         end
-
         function sec:TextField(name, placeholder, callback)
             local textfield = Instance.new("TextLabel")
             textfield.Name = "textfield"
