@@ -869,7 +869,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             toggleswitch.Size = UDim2.new(0, 418, 0, 37)
             toggleswitch.Font = Enum.Font.Gotham
             toggleswitch.Text = name
-            toggleswitch.TextColor3 = Color3.fromRGB(95, 95, 95)
+            toggleswitch.TextColor3 = Color3.fromRGB(208, 169, 212)
             toggleswitch.TextSize = 21
             toggleswitch.TextWrapped = true
             toggleswitch.TextXAlignment = Enum.TextXAlignment.Left
