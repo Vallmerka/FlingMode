@@ -901,7 +901,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
                 Frame.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
             else
                 TextButton.Position = UDim2.new(0, 35, 0, 1)
-                Frame.BackgroundColor3 = Color3.fromRGB(21, 103, 251)
+                Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
             end
 
             Frame.MouseButton1Click:Connect(function()
@@ -913,10 +913,10 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
                 if mode then
                     TextButton:TweenPosition(UDim2.new(0, 35, 0, 1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(21, 103, 251)
+                    Frame.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
                 else
                     TextButton:TweenPosition(UDim2.new(0,1,0,1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
+                    Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
                 end
             end)
             TextButton.MouseButton1Click:Connect(function()
