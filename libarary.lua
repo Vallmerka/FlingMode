@@ -952,7 +952,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
             local Frame_2 = Instance.new("Frame")
             Frame_2.Parent = textfield
-            Frame_2.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
+            Frame_2.BackgroundColor3 = Color3.fromRGB(48, 46, 48)
             Frame_2.Position = UDim2.new(0.441926777, 0, 0.0270270277, 0)
             Frame_2.Size = UDim2.new(0, 233, 0, 34)
 
