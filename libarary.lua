@@ -813,7 +813,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             button.Name = "button"
             button.Text = name
             button.Parent = workareamain
-            button.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
+            button.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
             button.BackgroundTransparency = 1
             button.Size = UDim2.new(0, 418, 0, 37)
             button.ZIndex = 2
@@ -898,7 +898,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
             if defaultmode == false then
                 TextButton.Position = UDim2.new(0, 1, 0, 1)
-                Frame.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
+                Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
             else
                 TextButton.Position = UDim2.new(0, 35, 0, 1)
                 Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
@@ -913,7 +913,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
                 if mode then
                     TextButton:TweenPosition(UDim2.new(0, 35, 0, 1), "In", "Sine", 0.1, true)
-                    Frame.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
+                    Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
                 else
                     TextButton:TweenPosition(UDim2.new(0,1,0,1), "In", "Sine", 0.1, true)
                     Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
