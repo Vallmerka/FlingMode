@@ -280,7 +280,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     close.Name = "close"
     close.Parent = buttons
     close.BackgroundColor3 = Color3.fromRGB(254, 94, 86)
-    close.Size = UDim2.new(0, 16, 0, 16)
+    close.Size = UDim2.new(0, 26, 0, 16)
     close.AutoButtonColor = false
     close.Font = Enum.Font.SourceSans
     close.Text = ""
@@ -300,7 +300,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     minimize.Name = "minimize"
     minimize.Parent = buttons
     minimize.BackgroundColor3 = Color3.fromRGB(255, 189, 46)
-    minimize.Size = UDim2.new(0, 16, 0, 16)
+    minimize.Size = UDim2.new(0, 26, 0, 16)
     minimize.AutoButtonColor = false
     minimize.Font = Enum.Font.SourceSans
     minimize.Text = ""
@@ -725,7 +725,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         local sidebar2 = Instance.new("TextButton")
         sidebar2.Name = "sidebar2"
         sidebar2.Parent = sidebar
-        sidebar2.BackgroundColor3 = Color3.fromRGB(21, 103, 251)
+        sidebar2.BackgroundColor3 = Color3.fromRGB(118, 63, 98)
         sidebar2.BackgroundTransparency = 1
         sidebar2.Size = UDim2.new(0, 226, 0, 37)
         sidebar2.ZIndex = 2
