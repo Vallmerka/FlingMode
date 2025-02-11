@@ -863,7 +863,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             local toggleswitch = Instance.new("TextLabel")
             toggleswitch.Name = "toggleswitch"
             toggleswitch.Parent = workareamain
-            toggleswitch.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
+            toggleswitch.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
             toggleswitch.BackgroundTransparency = 1
             toggleswitch.BorderSizePixel = 2
             toggleswitch.Size = UDim2.new(0, 418, 0, 37)
@@ -898,10 +898,10 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
             if defaultmode == false then
                 TextButton.Position = UDim2.new(0, 1, 0, 1)
-                Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
+                Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
             else
                 TextButton.Position = UDim2.new(0, 35, 0, 1)
-                Frame.BackgroundColor3 = Color3.fromRGB(216, 74, 74)
+                Frame.BackgroundColor3 = Color3.fromRGB(137, 216, 123)
             end
 
             Frame.MouseButton1Click:Connect(function()
