@@ -714,7 +714,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sidebardivider.Size = UDim2.new(0, 226, 0, 26)
         sidebardivider.Font = Enum.Font.Gotham
         sidebardivider.Text = name
-        sidebardivider.TextColor3 = Color3.fromRGB(175, 98, 160)
+        sidebardivider.TextColor3 = Color3.fromRGB(208, 169, 212)
         sidebardivider.TextSize = 21
         sidebardivider.TextWrapped = true
         sidebardivider.TextXAlignment = Enum.TextXAlignment.Left
