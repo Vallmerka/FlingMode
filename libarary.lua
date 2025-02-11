@@ -208,9 +208,10 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     searchtextbox.Size = UDim2.new(0, 176, 0, 34)
     searchtextbox.Font = Enum.Font.Gotham
     searchtextbox.LineHeight = 0.870
-    searchtextbox.PlaceholderText = "Search"
+    searchtextbox.PlaceholderText = "Поиск"
+    searchtextbox.PlaceholderColor3 = Color3.fromRGB(123, 94, 120)
     searchtextbox.Text = ""
-    searchtextbox.TextColor3 = Color3.fromRGB(95, 95, 95)
+    searchtextbox.TextColor3 = Color3.fromRGB(175, 117, 187)
     searchtextbox.TextSize = 22
     searchtextbox.TextXAlignment = Enum.TextXAlignment.Left
 
