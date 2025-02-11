@@ -882,7 +882,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             Frame.AutoButtonColor = false
 
             local uc_4 = Instance.new("UICorner")
-            uc_4.CornerRadius = UDim.new(5, 0)
+            uc_4.CornerRadius = UDim.new(0.3, 0)
             uc_4.Parent = Frame
 
             local TextButton = Instance.new("TextButton")
@@ -893,7 +893,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
             TextButton.Text = ""
 
             local uc_5 = Instance.new("UICorner")
-            uc_5.CornerRadius = UDim.new(5, 0)
+            uc_5.CornerRadius = UDim.new(0.3, 0)
             uc_5.Parent = TextButton
 
             if defaultmode == false then
