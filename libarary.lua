@@ -312,22 +312,6 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     uc_19.CornerRadius = UDim.new(1, 0)
     uc_19.Parent = minimize
 
-
-    local resize = Instance.new("TextButton")
-    resize.Name = "resize"
-    resize.Parent = buttons
-    resize.BackgroundColor3 = Color3.fromRGB(39, 200, 63)
-    resize.Size = UDim2.new(0, 16, 0, 16)
-    resize.AutoButtonColor = false
-    resize.Font = Enum.Font.SourceSans
-    resize.Text = ""
-    resize.TextColor3 = Color3.fromRGB(255, 50, 50)
-    resize.TextSize = 14
-
-    local uc_20 = Instance.new("UICorner")
-    uc_20.CornerRadius = UDim.new(1, 0)
-    uc_20.Parent = resize
-
     -- title text at topbar
 
 
