@@ -72,7 +72,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sicon.Position = UDim2.new(0.5, 0, 0.5, 0)
         sicon.Size = UDim2.new(0, 191, 0, 190)
         sicon.ZIndex = 40
-        sicon.Image = "https://github.com/Vallmerka/Fling-Mode/blob/main/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9.png?raw=true"
+        sicon.Image = "sigma.png"
         sicon.ScaleType = Enum.ScaleType.Fit
         sicon.TileSize = UDim2.new(1, 0, 20, 0)
 
