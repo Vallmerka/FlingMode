@@ -53,7 +53,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         splash.Parent = scrgui
         splash.AnchorPoint = Vector2.new(0.5, 0.5)
         splash.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
-        splash.BackgroundTransparency = 0.600
+        splash.BackgroundTransparency = 0.1
         splash.Position = UDim2.new(0.5, 0, 2, 0)
         splash.Size = UDim2.new(0, 340, 0, 340)
         splash.Visible = true
@@ -68,7 +68,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sicon.Parent = splash
         sicon.AnchorPoint = Vector2.new(0.5, 0.5)
         sicon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-        sicon.BackgroundTransparency = 1
+        sicon.BackgroundTransparency = 0.1
         sicon.Position = UDim2.new(0.5, 0, 0.5, 0)
         sicon.Size = UDim2.new(0, 191, 0, 190)
         sicon.ZIndex = 40
