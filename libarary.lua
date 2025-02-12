@@ -70,7 +70,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sicon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
         sicon.BackgroundTransparency = 0.1
         sicon.Position = UDim2.new(0.5, 0, 0.5, 0)
-        sicon.Size = UDim2.new(0, 191, 0, 190)
+        sicon.Size = UDim2.new(0, 241, 0, 240)
         sicon.ZIndex = 40
         sicon.Image = "rbxassetid://127513720691559"
         sicon.ScaleType = Enum.ScaleType.Fit
