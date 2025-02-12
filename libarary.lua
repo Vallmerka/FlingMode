@@ -601,7 +601,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         local t2 = Instance.new("TextLabel")
         t2.Name = "t2"
         t2.Parent = tempnotif
-        t2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        t2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
         t2.BackgroundTransparency = 1
         t2.Position = UDim2.new(0.236927822, 0, 0.470085472, 0)
         t2.Size = UDim2.new(0, 326, 0, 52)
@@ -618,7 +618,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         local t1 = Instance.new("TextLabel")
         t1.Name = "t1"
         t1.Parent = tempnotif
-        t1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        t1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
         t1.BackgroundTransparency = 1
         t1.Position = UDim2.new(0.234690696, 0, 0.193464488, 0)
         t1.Size = UDim2.new(0, 327, 0, 25)
