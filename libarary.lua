@@ -72,7 +72,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sicon.Position = UDim2.new(0.5, 0, 0.5, 0)
         sicon.Size = UDim2.new(0, 191, 0, 190)
         sicon.ZIndex = 40
-        sicon.Image = "sigma.png"
+        sicon.Image = "rbxassetid://127513720691559"
         sicon.ScaleType = Enum.ScaleType.Fit
         sicon.TileSize = UDim2.new(1, 0, 20, 0)
 
