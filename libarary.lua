@@ -77,7 +77,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sicon.TileSize = UDim2.new(1, 0, 20, 0)
 
         local ug = Instance.new("UIGradient")
-        ug.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.01, Color3.fromRGB(61, 61, 61)), ColorSequenceKeypoint.new(0.47, Color3.fromRGB(41, 41, 41)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+        ug.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.01, Color3.fromRGB(9, 4, 6)), ColorSequenceKeypoint.new(0.47, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(9, 4, 6))}
         ug.Rotation = 90
         ug.Parent = sicon
 
