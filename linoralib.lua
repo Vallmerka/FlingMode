@@ -37,7 +37,7 @@ local Library = {
     RiskColor = Color3.fromRGB(255, 50, 50),
 
     Black = Color3.new(0, 0, 0);
-    Font = Enum.Font.Code,
+    Font = Enum.Font.Michroma,
 
     OpenedFrames = {};
     DependencyBoxes = {};
@@ -2981,6 +2981,10 @@ function Library:CreateWindow(...)
         ZIndex = 1;
         Parent = Outer;
     });
+
+    local uc_22 = Instance.new("UICorner")
+    uc_22.CornerRadius = UDim.new(0, 18)
+    uc_22.Parent = Inner
 
     Library:AddToRegistry(Inner, {
         BackgroundColor3 = 'MainColor';
