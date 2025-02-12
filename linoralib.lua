@@ -37,7 +37,7 @@ local Library = {
     RiskColor = Color3.fromRGB(255, 50, 50),
 
     Black = Color3.new(0, 0, 0);
-    Font = Enum.Font.Michroma,
+    Font = Enum.Font.PT_Serif,
 
     OpenedFrames = {};
     DependencyBoxes = {};
@@ -645,7 +645,7 @@ do
             });
 
             TransparencyCursor = Library:Create('Frame', { 
-                BackgroundColor3 = Color3.new(1, 1, 1);
+                BackgroundColor3 = Color3.new(255, 0, 0);
                 AnchorPoint = Vector2.new(0.5, 0);
                 BorderColor3 = Color3.new(0, 0, 0);
                 Size = UDim2.new(0, 1, 1, 0);
