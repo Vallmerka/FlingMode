@@ -52,7 +52,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         splash.Name = "splash"
         splash.Parent = scrgui
         splash.AnchorPoint = Vector2.new(0.5, 0.5)
-        splash.BackgroundColor3 = Color3.fromRGB(9, 4, 6)
+        splash.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
         splash.BackgroundTransparency = 0.600
         splash.Position = UDim2.new(0.5, 0, 2, 0)
         splash.Size = UDim2.new(0, 340, 0, 340)
