@@ -52,7 +52,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         splash.Name = "splash"
         splash.Parent = scrgui
         splash.AnchorPoint = Vector2.new(0.5, 0.5)
-        splash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        splash.BackgroundColor3 = Color3.fromRGB(9, 4, 6)
         splash.BackgroundTransparency = 0.600
         splash.Position = UDim2.new(0.5, 0, 2, 0)
         splash.Size = UDim2.new(0, 340, 0, 340)
@@ -75,11 +75,6 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sicon.Image = "rbxassetid://127513720691559"
         sicon.ScaleType = Enum.ScaleType.Fit
         sicon.TileSize = UDim2.new(1, 0, 20, 0)
-
-        local ug = Instance.new("UIGradient")
-        ug.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.01, Color3.fromRGB(9, 4, 6)), ColorSequenceKeypoint.new(0.47, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(9, 4, 6))}
-        ug.Rotation = 90
-        ug.Parent = sicon
 
         local sshadow = Instance.new("ImageLabel")
         sshadow.Name = "sshadow"
