@@ -1776,7 +1776,7 @@ WarTycoonBox:AddToggle("RPG Spam", {
 WarTycoonBox:AddSlider("Rocket Count", {
     Text = "Rockets per Spam",
     Default = math.huge,
-    Min = 1,
+    Min = 100000,
     Max = math.huge,
     Rounding = 0,
     Tooltip = "Adjust how many rockets to fire at once.",
@@ -1789,7 +1789,7 @@ WarTycoonBox:AddSlider("Spam Speed", {
     Text = "Rockets Spam Speed",
     Default = -math.huge,
     Min = -math.huge,
-    Max = 5,
+    Max = 100000,
     Rounding = 1,
     Tooltip = "Adjust the speed of RPG spam.",
     Callback = function(value)
